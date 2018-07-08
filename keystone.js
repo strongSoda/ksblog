@@ -27,7 +27,7 @@ keystone.init({
 	'auto update': true,
 	'session': true,
 	'auth': true,
-	'user model': 'User',
+	'user model': 'User'
 });
 
 // Load your project's Models
@@ -45,7 +45,7 @@ keystone.set('locals', {
 
 // Load your project's Routes
 keystone.set('routes', require('./routes'));
-
+keystone.set('cloudinary config', 'cloudinary://115964585386833:fGRp16hpHkBOxLbkuCszuKZZJgo@devhoot' );
 
 // Configure the navigation bar in Keystone's Admin UI
 keystone.set('nav', {
