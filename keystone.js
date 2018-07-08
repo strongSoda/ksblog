@@ -45,7 +45,7 @@ keystone.set('locals', {
 
 // Load your project's Routes
 keystone.set('routes', require('./routes'));
-keystone.set('cloudinary config', 'cloudinary://115964585386833:fGRp16hpHkBOxLbkuCszuKZZJgo@devhoot' );
+keystone.set('cloudinary config', { cloud_name: 'devhoot', api_key: '115964585386833', api_secret: 'fGRp16hpHkBOxLbkuCszuKZZJgo' });
 
 // Configure the navigation bar in Keystone's Admin UI
 keystone.set('nav', {
